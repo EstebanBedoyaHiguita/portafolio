@@ -17,20 +17,21 @@
             </div>
             <nav id="nav" >
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBREMI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#portafolio">PORTAFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBREMI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
 
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
 
     </div>
+    <br><br>
 
     <!-- Seccion inicio -->
     <section id="inicio" class="inicio" >
@@ -143,7 +144,7 @@
                     <div class="skill">
                         <span>HTML</span>
                         <div class="barra-skill">
-                            <div class="progreso ">
+                            <div class="progreso">
                                 <span>70%</span>
                             </div>
                         </div>
@@ -151,7 +152,7 @@
                     <div class="skill">
                         <span>CSS</span>
                         <div class="barra-skill">
-                            <div class="progreso ">
+                            <div class="progreso">
                                 <span>60%</span>
                             </div>
                         </div>
@@ -159,7 +160,7 @@
                     <div class="skill">
                         <span>JAVA</span>
                         <div class="barra-skill">
-                            <div class="progreso ">
+                            <div class="progreso">
                                 <span>25%</span>
                             </div>
                         </div>
@@ -167,7 +168,7 @@
                     <div class="skill">
                         <span>WORDPRESS</span>
                         <div class="barra-skill">
-                            <div class="progreso ">
+                            <div class="progreso">
                                 <span>85%</span>
                             </div>
                         </div>
@@ -355,7 +356,6 @@
 
     </footer>
     
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
 </body>
 </html>

@@ -86,6 +86,7 @@ MENU */
     margin: auto;
     text-align: center;
     border-radius: 40px;
+    /* top: 15%; */
 }
 
 .inicio .contenido-banner img{
@@ -353,7 +354,7 @@ MENU */
     width: 0%;
     animation: 2s comunicacion forwards;
 }
-@keyframes word{
+@keyframes comunicacion{
     0%{
         width:0%;
     }
@@ -365,7 +366,7 @@ MENU */
     width: 0%;
     animation: 2s trabajo forwards;
 }
-@keyframes word{
+@keyframes trabajo{
     0%{
         width:0%;
     }
@@ -377,7 +378,7 @@ MENU */
     width: 0%;
     animation: 2s creatividad forwards;
 }
-@keyframes word{
+@keyframes creatividad{
     0%{
         width:0%;
     }
@@ -390,7 +391,7 @@ MENU */
     width: 0%;
     animation: 2s dedicacion forwards;
 }
-@keyframes word{
+@keyframes dedicacion{
     0%{
         width:0%;
     }
