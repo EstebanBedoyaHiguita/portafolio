@@ -785,4 +785,11 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+    .contacto .col .info{
+    top: 95%;
+    
+    }
+    footer{
+        margin-top: 50%;
+    }
 }
