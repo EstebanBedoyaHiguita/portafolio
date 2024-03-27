@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
     padding: 0%;
 }
@@ -30,7 +30,7 @@ MENU */
     padding: 15px 20px;
 }
 .contenedor-header header .logo a{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 36px;
     color: #4f1699;
 }
@@ -99,7 +99,7 @@ MENU */
 .inicio .contenido-banner h1{
     margin-top: 40px;
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .inicio .contenido-banner h2{
     font-size: 15px;
@@ -140,7 +140,7 @@ MENU */
 
 .sobremi h2{
     font-size: 48px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 20px 0;
 }
@@ -164,7 +164,7 @@ MENU */
 }
 .sobremi .fila .col h3{
     font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 25px;
 }
 .sobremi .fila .col ul{
@@ -230,7 +230,7 @@ MENU */
 
 .skills h2{
     font-size: 48px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 20px 0;
 }
@@ -245,7 +245,7 @@ MENU */
 }
 .skills .fila .col h3{
     font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 25px;
 }
 
@@ -346,5 +346,353 @@ MENU */
     }
     100%{width:80%;
     }
+}
+
+/* animacion comunicacion */
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes word{
+    0%{
+        width:0%;
+    }
+    100%{width:80%;
+    }
+}
+/* animacion trabajo */
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes word{
+    0%{
+        width:0%;
+    }
+    100%{width:70%;
+    }
+}
+/* animacion creatividad */
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes word{
+    0%{
+        width:0%;
+    }
+    100%{width:60%;
+    }
+}
+
+/* animacion dedicacion */
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes word{
+    0%{
+        width:0%;
+    }
+    100%{width:85%;
+    }
+}
+
+/* portafolio */
+
+.portafolio{
+    text-align: center;
+    background-color: #252a2e;
+    color: #fff;
+    font-size: 38px;
+}
+
+.cards{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    background-color: #252a2e;
+    color: #fff;
+    padding: 50px 20px;
+    
+}
+.container{
+    
+    height: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10%;
+    gap: 10px;
+
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    transition: 300ms;
+    
+
+}
+
+ .proyecto, .proyecto_2, .proyecto_3, .proyecto_4, .proyecto_5, .proyecto_6 {
+
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color:#4f1699;
+    transition: 300ms;
+    margin-top: 45%;
+    
+    /* position: absolute; */
+
+
+} 
+/* .proyecto_4, .proyecto_5, .proyecto_6{
+    margin-top: 45%;
+} */
+ /* imgenes */
+
+.imagen_proyecto{
+    height: 350px;
+    width: 250px;
+    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    /* transition: 300ms; */
+    filter: drop-shadow(5px -4px 10px #000);
+}
+
+.imagen_proyecto_2{
+    height: 350px;
+    width: 250px;
+    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+
+}
+.imagen_proyecto_3{
+    height: 350px;
+    width: 250px;
+    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+
+}
+.imagen_proyecto_4{
+    height: 350px;
+    width: 250px;
+    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+
+}
+.imagen_proyecto_5{
+    height: 350px;
+    width: 250px;
+    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+
+}
+.imagen_proyecto_6{
+    height: 350px;
+    width: 250px;
+    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+
+}
+.detalle {
+    height: 200px;
+    width: 300px;
+    background-color: #131517;
+    color: #fff;
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 150px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    transition: 300ms; */
+}
+.detalle button{
+    width: 50%;
+    margin-left: 27%;
+}
+
+
+/* hover */
+
+.car :hover .imagen_proyecto{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.car :hover .imagen_proyecto_2{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+}
+
+
+.car :hover .imagen_proyecto_3{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+}
+.car :hover .imagen_proyecto_4{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+}
+.car :hover .imagen_proyecto_5{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+}
+.car :hover .imagen_proyecto_6{
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+}
+
+
+/* contacto */
+.contacto{
+    background-image: url("./world-map.jpg");
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252a2e;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding:  10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+
+}
+
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #4f1699;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+
+}
+.contacto .col img{
+    width: 100%;
+
+}
+
+.contacto .col .info{
+    position: absolute;
+    top: 55%;
+    background-color: #252a2e;
+    padding: 20px;
+    max-width: 350px;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.contacto .col .info ul{
+    list-style: none;
+
+}
+
+.contacto .col .info ul li{
+    margin-bottom: 20px;
+}
+
+.contacto .col .info ul li i{
+    color: #4f1699;
+    display: inline-block;
+    margin-right: 20px;
 }
 
