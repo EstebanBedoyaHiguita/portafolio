@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
 *{
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -32,7 +33,7 @@ MENU */
 .contenedor-header header .logo a{
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 36px;
-    color: #4f1699;
+    color: #7E30E1;
 }
 
 .contenedor-header header ul{
@@ -49,11 +50,11 @@ MENU */
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #4f1699;
+    color: #7E30E1;
 }
 
 .nav-responsive{
-    background-color: #4f1699;
+    background-color: #7E30E1;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -91,7 +92,7 @@ MENU */
 
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #4f1699;
+    border: 10px solid #7E30E1;
     display: block;
     width: 80%;
     margin: auto;
@@ -100,7 +101,7 @@ MENU */
 .inicio .contenido-banner h1{
     margin-top: 40px;
     font-size: 40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Tac One", sans-serif;
 }
 .inicio .contenido-banner h2{
     font-size: 15px;
@@ -123,7 +124,7 @@ MENU */
 }
 
 .inicio .contenido-banner .redes a:hover{
-    background-color: #4f1699;
+    background-color: #7E30E1;
 }
 
 /* SOBRE MI */
@@ -153,7 +154,7 @@ MENU */
 }
 
 .sobremi .contenido-seccion p span{
-    color: #4f1699;
+    color: #7E30E1;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -177,13 +178,13 @@ MENU */
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #4f1699;
+    color: #7E30E1;
     width: 130px;
 
 }
 
 /* .sobremi .fila .col ul li span{
-    background-color: #4f1699;
+    background-color: #7E30E1;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -208,7 +209,7 @@ MENU */
 }
 
 .sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #4f1699;
+    background-color: #7E30E1;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes i{
@@ -265,7 +266,7 @@ MENU */
 }
 
 .skills .skill .progreso{
-    background-color: #4f1699;
+    background-color: #7E30E1;
     position: absolute;
     top: 0;
     left: 0;
@@ -276,7 +277,7 @@ MENU */
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #4f1699;
+    background-color: #7E30E1;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -293,7 +294,7 @@ MENU */
     0%{
         width:0%;
     }
-    100%{width:50%;
+    100%{width:40%;
     }
 }
 
@@ -408,6 +409,8 @@ MENU */
     font-size: 38px;
 }
 
+
+
 .cards{
     
     height: 100%;
@@ -449,7 +452,7 @@ MENU */
     justify-content: center;
     align-items: center;
     border-radius: 10%;
-    background-color:#4f1699;
+    background-color:#7E30E1;
     transition: 300ms;
     margin-top: 45%;
     
@@ -465,10 +468,10 @@ MENU */
 .imagen_proyecto{
     height: 350px;
     width: 250px;
-    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-image: url("../D´santos\ 1.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     /* transition: 300ms; */
     filter: drop-shadow(5px -4px 10px #000);
 }
@@ -476,10 +479,10 @@ MENU */
 .imagen_proyecto_2{
     height: 350px;
     width: 250px;
-    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-image: url("../happy-pets-1.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 
@@ -487,10 +490,10 @@ MENU */
 .imagen_proyecto_3{
     height: 350px;
     width: 250px;
-    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-image: url("../Restaurant1.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 
@@ -498,10 +501,10 @@ MENU */
 .imagen_proyecto_4{
     height: 350px;
     width: 250px;
-    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-image: url("../petCare1.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 
@@ -509,10 +512,10 @@ MENU */
 .imagen_proyecto_5{
     height: 350px;
     width: 250px;
-    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-image: url("./navidad1.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 
@@ -520,10 +523,10 @@ MENU */
 .imagen_proyecto_6{
     height: 350px;
     width: 250px;
-    background-image: url("../WhatsApp\ Image\ 2024-03-25\ at\ 22.53.08.jpeg");
+    background-image: url("./Carrito1.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     transition: 300ms;
     filter: drop-shadow(5px -4px 10px #000);
 
@@ -559,7 +562,7 @@ MENU */
     transform: translateY(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+    background-image: url("../D´santos2.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -567,7 +570,7 @@ MENU */
     transform: translateY(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+    background-image: url("../happy-pets-2.png");
 }
 
 
@@ -575,25 +578,25 @@ MENU */
     transform: translateY(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+    background-image: url("../restaurant2.png");
 }
 .car :hover .imagen_proyecto_4{
     transform: translateY(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+    background-image: url("../PetCare2.png");
 }
 .car :hover .imagen_proyecto_5{
     transform: translateY(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+    background-image: url("./navidad1.png");
 }
 .car :hover .imagen_proyecto_6{
     transform: translateY(-40px);
     transition: 300ms;
     filter: none;
-    background-image: url("../experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.avif");
+    background-image: url("./Carrito2.png");
 }
 
 
@@ -659,7 +662,7 @@ MENU */
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #4f1699;
+    background-color: #7E30E1;
     z-index: -1;
     transition: 1s;
 }
@@ -692,7 +695,7 @@ MENU */
 }
 
 .contacto .col .info ul li i{
-    color: #4f1699;
+    color: #7E30E1;
     display: inline-block;
     margin-right: 20px;
 }
@@ -726,7 +729,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #4f1699;
+    background-color: #7E30E1;
     color: #fff;
     position: absolute;
     left: 50%;
