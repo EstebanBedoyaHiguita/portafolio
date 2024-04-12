@@ -33,7 +33,7 @@ MENU */
 .contenedor-header header .logo a{
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 36px;
-    color: #7E30E1;
+    color: #4DB7FF;
 }
 
 .contenedor-header header ul{
@@ -50,11 +50,11 @@ MENU */
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #7E30E1;
+    color: #4DB7FF;
 }
 
 .nav-responsive{
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -92,7 +92,7 @@ MENU */
 
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #7E30E1;
+    border: 10px solid #4DB7FF;
     display: block;
     width: 80%;
     margin: auto;
@@ -124,7 +124,7 @@ MENU */
 }
 
 .inicio .contenido-banner .redes a:hover{
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
 }
 
 /* SOBRE MI */
@@ -154,7 +154,7 @@ MENU */
 }
 
 .sobremi .contenido-seccion p span{
-    color: #7E30E1;
+    color: #4DB7FF;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -178,13 +178,13 @@ MENU */
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #7E30E1;
+    color: #4DB7FF;
     width: 130px;
 
 }
 
 /* .sobremi .fila .col ul li span{
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -209,7 +209,7 @@ MENU */
 }
 
 .sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes i{
@@ -266,7 +266,7 @@ MENU */
 }
 
 .skills .skill .progreso{
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
     position: absolute;
     top: 0;
     left: 0;
@@ -277,7 +277,7 @@ MENU */
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -452,7 +452,7 @@ MENU */
     justify-content: center;
     align-items: center;
     border-radius: 10%;
-    background-color:#7E30E1;
+    background-color:#4DB7FF;
     transition: 300ms;
     margin-top: 45%;
     
@@ -662,7 +662,7 @@ MENU */
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
     z-index: -1;
     transition: 1s;
 }
@@ -695,7 +695,7 @@ MENU */
 }
 
 .contacto .col .info ul li i{
-    color: #7E30E1;
+    color: #4DB7FF;
     display: inline-block;
     margin-right: 20px;
 }
@@ -729,7 +729,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #7E30E1;
+    background-color: #4DB7FF;
     color: #fff;
     position: absolute;
     left: 50%;
