@@ -163,6 +163,7 @@ MENU */
 }
 .sobremi .fila .col{
     width: 50%;
+    
 }
 .sobremi .fila .col h3{
     font-size: 28px;
@@ -175,12 +176,20 @@ MENU */
 
 .sobremi .fila .col ul li{
     margin: 12px 0;
+    display: flex;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
     color: #4DB7FF;
     width: 130px;
 
+}
+.sobremi .fila{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15%;
+    
 }
 
 /* .sobremi .fila .col ul li span{
@@ -193,6 +202,8 @@ MENU */
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
+    
 }
 
 .sobremi .fila .col .contenedor-intereses .interes{
